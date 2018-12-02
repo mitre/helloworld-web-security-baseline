@@ -1,0 +1,22 @@
+name: hello-world-web-security-baseline
+title: Security baseline for helloworld-web application
+maintainer: The Authors
+copyright: The Authors
+copyright_email: opensource@mitre.org
+license: Apache-2.0
+summary: This InSpec profile provides a minimal - however incomplete - example to include security testing for a the helloworld-web docker application.
+version: 0.1.0
+supports:
+  platform: os
+inspec_version: "~> 3.0"
+
+attributes:
+  - name: application_url
+    description: 'application url'
+    type: string
+    default: localhost
+
+  - name: application_container_name
+    description: ''
+    type: string
+    default: 'helloworld-web'
