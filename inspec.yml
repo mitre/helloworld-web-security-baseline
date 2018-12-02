@@ -1,7 +1,7 @@
 name: hello-world-web-security-baseline
 title: Security baseline for helloworld-web application
-maintainer: The Authors
-copyright: The Authors
+maintainer: MITER InSpec Team
+copyright: The MITRE Corporation, 2018
 copyright_email: opensource@mitre.org
 license: Apache-2.0
 summary: This InSpec profile provides a minimal - however incomplete - example to include security testing for a the helloworld-web docker application.
